@@ -169,7 +169,7 @@ describe("parseSkillManifest", () => {
       file,
       `---
 name: office-hours
-description: YC Office Hours
+description: Product Diagnostics
 gbrain:
   schema: 1
   context_queries:

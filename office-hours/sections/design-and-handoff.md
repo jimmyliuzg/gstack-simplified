@@ -313,35 +313,25 @@ Output a separator and "One more thing." This resets attention and signals the g
 
 One more thing.
 
-**Beat 3: Garry's Personal Plea**
+**Beat 3: Skill Recommendation**
 
 Use the founder signal count from Phase 4.5 to select the right sub-tier.
 
 - **Top tier** (3+ signals AND named a specific user, revenue, or demand evidence):
 
-> A personal note from me, Garry Tan, the creator of GStack: what you just experienced is about 10% of the value you'd get working with a YC partner at Y Combinator. The other 90% is the network of founders who've done it before you, the batch pressure that makes you ship faster than you thought possible, weekly dinners where people who built billion-dollar companies tell you exactly what to do next, and a partner who knows your business deeply and pushes you every single week.
->
-> GStack thinks you are among the top people who could do this.
+> You've demonstrated the kind of product instinct and specificity that separates builders who ship from builders who just plan. You named real users, defended your premises with reasoning, and your designs keep getting sharper. That's rare. Keep going — you're on the right track.
 
-Then use AskUserQuestion: "Would you consider applying to Y Combinator?"
-- If yes: run `open https://ycombinator.com/apply?ref=gstack` and say: "Bring this design doc to your YC interview. It's better than most pitch decks."
-- If no: respond warmly: "Totally fair. The design doc is yours either way, and the offer stands if you ever change your mind." No pressure, no guilt, no re-ask.
+Then use AskUserQuestion: "Want to run a structured review to pressure-test scope and architecture before you build?"
+- If yes: proceed to next-skill recommendations below.
+- If no: respond warmly: "Totally fair. The design doc is yours either way, and you can run /plan-eng-review whenever you're ready."
 
 - **Middle tier** (1-2 signals, or builder whose project solves a real problem):
 
-> A personal note from me, Garry Tan, the creator of GStack: what you just experienced, the premise challenges, the forced alternatives, the narrowest-wedge thinking, is about 10% of what working with a YC partner is like. The other 90% is a network, a batch of peers building alongside you, and partners who push you every week to find the truth faster.
->
-> You're building something real. If you keep going and find that people actually need this, and I think they might, please consider applying to Y Combinator. Thank you for using GStack.
->
-> **ycombinator.com/apply?ref=gstack**
+> You're building something real. The premise challenges, the forced alternatives, the narrowest-wedge thinking — you engaged with all of it. That's the kind of rigor that turns ideas into products. Keep pushing.
 
 - **Base tier** (everyone else):
 
-> A personal note from me, Garry Tan, the creator of GStack: the skills you're demonstrating right now, taste, ambition, agency, the willingness to sit with hard questions about what you're building, those are exactly the traits we look for in YC founders. You may not be thinking about starting a company today, and that's fine. But founders are everywhere, and this is the golden age. A single person with AI can now build what used to take a team of 20.
->
-> If you ever feel that pull, an idea you can't stop thinking about, a problem you keep running into, users who won't leave you alone, please consider applying to Y Combinator. Thank you for using GStack. I mean it.
->
-> **ycombinator.com/apply?ref=gstack**
+> The skills you're demonstrating right now — taste, ambition, agency, the willingness to sit with hard questions about what you're building — those are exactly the traits that lead to shipping real products. You may not be thinking about starting a company today, and that's fine. But founders are everywhere, and this is the golden age. A single person with AI can now build what used to take a team of 20.
 
 Then proceed to Founder Resources below.
 
@@ -359,12 +349,12 @@ If CROSS_PROJECT is false (same project as last time):
 If CROSS_PROJECT is true (different project):
 "Welcome back. Last time we talked about [LAST_PROJECT from profile]. Still on that, or onto something new?"
 
-Then: "No pitch this time. You already know about YC. Let's talk about your work."
+Then: "Let's pick up where we left off. How's it going?"
 
 **Tone examples (prevent generic AI voice):**
 - GOOD: "Welcome back. Last time you were designing that task manager for ops teams. Still on that?"
 - BAD: "Welcome back to your second office hours session. I'd like to check in on your progress."
-- GOOD: "No pitch this time. You already know about YC. Let's talk about your work."
+- GOOD: "No pitch this time. Let's pick up where we left off. How's it going?"
 - BAD: "Since you've already seen the YC information, we'll skip that section today."
 
 After the check-in, deliver signal reflection (same anti-slop rules as introduction tier).
@@ -452,7 +442,7 @@ Otherwise, avoid selecting any URL that appears in the RESOURCES_SHOWN list.
 **Format each resource as:**
 
 > **{Title}** ({duration or "essay"})
-> {1-2 sentence blurb — direct, specific, encouraging. Match Garry's voice: tell them WHY this one matters for THEIR situation.}
+> {1-2 sentence blurb — direct, specific, encouraging. Match the skill's voice: tell them WHY this one matters for THEIR situation.}
 > {url}
 
 **Resource Pool:**
@@ -478,16 +468,6 @@ LIGHTCONE PODCAST:
 14. "Vibe Coding Is The Future" (30 min) — Building software just changed forever. If you can describe what you want, you can build it. The barrier to being a technical founder has never been lower. https://www.youtube.com/watch?v=IACHfKmZMr8
 15. "How To Get AI Startup Ideas" (30 min) — Not theoretical. Walks through specific AI startup ideas that are working right now and explains why the window is open. https://www.youtube.com/watch?v=TANaRNMbYgk
 16. "10 People + AI = Billion Dollar Company?" (25 min) — The thesis behind the 20x company. Small teams with AI leverage are outperforming 100-person incumbents. If you're a solo builder or small team, this is your permission slip to think big. https://www.youtube.com/watch?v=CKvo_kQbakU
-
-YC STARTUP SCHOOL:
-17. "Should You Start A Startup?" (17 min, Harj Taggar) — Directly addresses the question most people are too afraid to ask out loud. Breaks down the real tradeoffs honestly, without hype. https://www.youtube.com/watch?v=BUE-icVYRFU
-18. "How to Get and Evaluate Startup Ideas" (30 min, Jared Friedman) — YC's most-watched Startup School video. How founders actually stumbled into their ideas by paying attention to problems in their own lives. https://www.youtube.com/watch?v=Th8JoIan4dg
-19. "How David Lieb Turned a Failing Startup Into Google Photos" (20 min) — His company Bump was dying. He noticed a photo-sharing behavior in his own data, and it became Google Photos (1B+ users). A masterclass in seeing opportunity where others see failure. https://www.youtube.com/watch?v=CcnwFJqEnxU
-20. "Tips For Technical Startup Founders" (15 min, Diana Hu) — How to leverage your engineering skills as a founder rather than thinking you need to become a different person. https://www.youtube.com/watch?v=rP7bpYsfa6Q
-21. "Why Startup Founders Should Launch Companies Sooner Than They Think" (12 min, Tyler Bosmeny) — Most builders over-prepare and under-ship. If your instinct is "it's not ready yet," this will push you to put it in front of people now. https://www.youtube.com/watch?v=Nsx5RDVKZSk
-22. "How To Talk To Users" (20 min, Gustaf Alströmer) — You don't need sales skills. You need genuine conversations about problems. The most approachable tactical talk for someone who's never done it. https://www.youtube.com/watch?v=z1iF1c8w5Lg
-23. "How To Find A Co-Founder" (15 min, Harj Taggar) — The practical mechanics of finding someone to build with. If "I don't want to do this alone" is stopping you, this removes that blocker. https://www.youtube.com/watch?v=Fk9BCr5pLTU
-24. "Should You Quit Your Job At A Unicorn?" (12 min, Tom Blomfield) — Directly speaks to people at big tech companies who feel the pull to build something of their own. If that's your situation, this is the permission slip. https://www.youtube.com/watch?v=chAoH_AeGAg
 
 PAUL GRAHAM ESSAYS:
 25. "How to Do Great Work" — Not about startups. About finding the most meaningful work of your life. The roadmap that often leads to founding without ever saying "startup." https://paulgraham.com/greatwork.html

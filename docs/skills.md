@@ -4,7 +4,7 @@ Detailed guides for every gstack skill — philosophy, workflow, and examples.
 
 | Skill | Your specialist | What they do |
 |-------|----------------|--------------|
-| [`/office-hours`](#office-hours) | **YC Office Hours** | Start here. Six forcing questions that reframe your product before you write code. Pushes back on your framing, challenges premises, generates implementation alternatives. Design doc feeds into every downstream skill. |
+| [`/office-hours`](#office-hours) | **Product Diagnostics** | Start here. Six forcing questions that reframe your product before you write code. Pushes back on your framing, challenges premises, generates implementation alternatives. Design doc feeds into every downstream skill. |
 | [`/spec`](#spec) | **Spec Author** | Turn vague intent into a precise, executable spec in five phases. Backlog-ready output that downstream skills can pick up. Optional agent spawn at the end. |
 | [`/plan-ceo-review`](#plan-ceo-review) | **CEO / Founder** | Rethink the problem. Find the 10-star product hiding inside the request. Four modes: Expansion, Selective Expansion, Hold Scope, Reduction. |
 | [`/plan-eng-review`](#plan-eng-review) | **Eng Manager** | Lock in architecture, data flow, diagrams, edge cases, and tests. Forces hidden assumptions into the open. |
